@@ -1,1 +1,1 @@
-# simpleteatimer
+# SimpleTeaTimer
