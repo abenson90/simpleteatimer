@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col center">
+        <div id="timer">
+             Minutes {{minutes}}  Seconds {{seconds}}
+        </div>
+        <div id="control-buttons">
+            <button type="button" class="btn btn-primary" [routerLink]="['/home']">Back</button>
+            <button type="button" class="btn btn-primary" (click)="stopTimer()">Stop</button>
+        </div>
+    </div>
+</div>

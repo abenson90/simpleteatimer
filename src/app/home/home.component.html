@@ -1,0 +1,17 @@
+<div id="welcome">
+  <h1>
+    Welcome to SimpleTeaTimer!
+  </h1>
+</div>
+
+<div class="row">
+  <div id="input-div" class="col center">
+       <div id="spot">
+          <h3>Fulfill the form below and get started with your tea!</h3>
+       </div>
+       <div id="minutes-input">
+          Minutes <input type="text" #minutes/>
+          <button type="button" class="btn btn-primary" (click)="startTimer(minutes.value)">Start</button>
+      </div>
+  </div>
+</div>
